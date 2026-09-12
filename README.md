@@ -10,3 +10,8 @@ EOF是stdio.h中的宏，可以当成输出的结束（即无输入）常用在�
 
 <img width="1115" height="506" alt="image" src="https://github.com/user-attachments/assets/c618cd26-12a6-4b59-b1c1-a01d85bc031d" />
 
+## 3.减少重复输入
+对于一个变量在判断时输入即可。
+例子如下；
+对于 int pos我在输入时一般采用scanf（%d，&pos）；
+>>但是如果你写if（scanf（%d，&pos）！=1）类似这种判断语句中已经涵盖了输入语句就无需再重复写输入了。
