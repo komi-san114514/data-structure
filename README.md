@@ -7,4 +7,6 @@ scanf("%13s %60s %lf", book.number_book, book.name_book, &book.price) != EOF（�
 
 ## 2. EOF
 EOF是stdio.h中的宏，可以当成输出的结束（即无输入）常用在不知总数的前提下输入部分数量。例如下：
->>![Uploading image.png…]()
+
+<img width="1115" height="506" alt="image" src="https://github.com/user-attachments/assets/c618cd26-12a6-4b59-b1c1-a01d85bc031d" />
+
